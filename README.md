@@ -1,16 +1,50 @@
-# splash
+Descrição:
+  -O Splash é um aplicativo Flutter multiplataforma que demonstra a implementação de uma tela de splash customizada e a configuração inicial de um projeto Flutter.
 
-A new Flutter project.
+Funcionalidades
+  -Tela de splash animada:
+  -Estrutura de navegação para múltiplas plataformas (Android, iOS, Web, Desktop)
+  -Suporte a temas (claro e escuro)
 
-## Getting Started
+Tecnologias e Dependências:
+  -Flutter SDK >= 3.0.0
+  -Dart >= 2.17.0
 
-This project is a starting point for a Flutter application.
+Pacotes principais:
+  -flutter_svg
+  -flutter_native_splash
+  -AnimatedOpacity
 
-A few resources to get you started if this is your first Flutter project:
+Instalação:
+  -Clone o repositório
+    -git clone https://github.com/Zimmer-7/Splash.git
+  -Acesse o diretório do projeto:
+    -cd Splash
+  -Instale as dependências:
+    -flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  Execução:
+    -Android/IOS
+      -flutter run
+    -Web
+      -flutter run -d chrome
+    -Windows/Linux/macOS
+      -flutter run -d windows
+      -flutter run -d linux
+      -flutter run -d macos
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Estrutura de Diretórios:
+  /
+  ├── android/
+  ├── ios/
+  ├── lib/
+  │   ├── main.dart
+  │   └── screens/
+  │       └── splash_screen.dart
+  ├── web/
+  ├── windows/
+  ├── linux/
+  ├── macos/
+  ├── test/
+  ├── pubspec.yaml
+  └── README.md
